@@ -1,0 +1,12 @@
+extends layout
+
+block blog
+    h1= title
+    ol        
+        for arr in a
+            li
+                p= arr.article
+                h4=arr.name
+                    span= arr.age
+                hr
+    
